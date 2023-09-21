@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 10px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
