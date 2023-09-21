@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 ">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
