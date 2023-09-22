@@ -6,9 +6,11 @@ import Project from "./pages/Project";
 import Resume from "./pages/Resume";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import AnimeCursor from "./components/AnimeCursor";
 function App() {
   return (
-    <div className="bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 ">
+    <div className="bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">
+      <AnimeCursor />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
