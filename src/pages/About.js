@@ -16,6 +16,9 @@ function About() {
         <p className="text-[#ad50eb]">Tools </p> I Use
       </h1>
       <Toolstack />
+      <h1 className="m-auto flex items-center w-full justify-center gap-2 text-gray-200 font-medium text-4xl my-3">
+        Day I<p className="text-[#ad50eb]">Code </p>
+      </h1>
       <Github />
     </div>
   );

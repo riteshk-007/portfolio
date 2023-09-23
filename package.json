@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-animated-cursor": "^2.8.1",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^4.0.1",
     "react-icons": "^4.11.0",
     "react-parallax-tilt": "^1.7.167",
     "react-router-dom": "^6.16.0",
