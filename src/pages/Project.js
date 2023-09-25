@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Project() {
-  return <div></div>;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden h-screen"></div>
+  );
 }
 
 export default Project;
