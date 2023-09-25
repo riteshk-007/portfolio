@@ -19,13 +19,24 @@ function WhoIM() {
               from <span className="text-[#ad50eb]">Delhi, India.</span>
             </p>
             <p className="lg:text-xl font-thin">
-              I am a 3rd year Bcom student at Delhi University, and I am making
-              a career in web development and I am always looking for new
-              challenges. I believe that I can use my skills and experience to
-              contribute to any team and help you achieve your goals. I am
-              looking for an opportunity where I can use my skills in
-              contributing to the success of the company and also to improve my
-              personal skills
+              I am a 3<sup>rd</sup> year bcom student at Delhi University, and I
+              am making a career in{" "}
+              <span className="text-[#ad50eb] font-semibold">
+                web development
+              </span>{" "}
+              and I am always looking for new challenges. I believe that I can
+              use my <span className="text-[#ad50eb] font-light">skills </span>
+              and <span className="text-[#ad50eb] font-light">
+                experience{" "}
+              </span>{" "}
+              to contribute to any team and help you
+              <span className="text-[#ad50eb] font-light"> achieve </span>
+              your<span className="text-[#ad50eb] font-light"> goals.</span> I
+              am looking for an opportunity where I can use my skills in
+              contributing to the{" "}
+              <span className="text-[#ad50eb] font-light"> success </span> of
+              the company and also to improve my{" "}
+              <span className="text-[#ad50eb] font-light">personal skills</span>
             </p>
             <p className="flex text-gray-200 text-base lg:text-lg gap-2 font-semibold">
               Apart from coding, some other activities that I love to do!
