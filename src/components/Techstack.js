@@ -1,19 +1,25 @@
 import React from "react";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
-import { FaCss3Alt, FaReact, FaSass, FaBootstrap } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaReact,
+  FaSass,
+  FaBootstrap,
+  FaWordpress,
+} from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import {
   SiFirebase,
   SiRedux,
   SiTailwindcss,
   SiGreensock,
+  SiJquery,
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 
 const data = [
   {
     icon: <AiFillHtml5 fontSize={70} color="#fff" />,
-    tooltip: "html5",
   },
   {
     icon: <FaCss3Alt fontSize={70} color="#fff" />,
@@ -48,10 +54,16 @@ const data = [
   {
     icon: <SiGreensock fontSize={70} color="#fff" />,
   },
+  {
+    icon: <SiJquery fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <FaWordpress fontSize={70} color="#fff" />,
+  },
 ];
 function Techstack() {
   return (
-    <div className="relative w-11/12 lg:w-4/5 m-auto flex items-center justify-center gap-3 flex-wrap">
+    <div className="relative w-11/12 lg:w-4/5 mx-auto flex items-center justify-center gap-3 flex-wrap my-5 lg:my-10">
       <img
         src="./star.jpg"
         alt=""
