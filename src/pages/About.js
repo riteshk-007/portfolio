@@ -1,13 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import WhoIM from "../components/WhoIM";
 import Github from "../components/Github";
 import Techstack from "../components/Techstack";
 import Toolstack from "../components/Toolstack";
 
 function About() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <div>
       <WhoIM />

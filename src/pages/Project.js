@@ -1,10 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ProjectCard from "../components/ProjectCard";
 
 function Project() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden ">
       <img
