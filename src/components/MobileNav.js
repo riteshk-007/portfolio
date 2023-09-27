@@ -8,7 +8,7 @@ import { FiUser, FiFileText } from "react-icons/fi";
 import { DiGitBranch } from "react-icons/di";
 
 import { Link } from "react-router-dom";
-function MobileNav({ showNav }) {
+function MobileNav({ showNav, setShowNav }) {
   return (
     <div
       className={
@@ -23,6 +23,7 @@ function MobileNav({ showNav }) {
             <Link
               to={"/"}
               className="flex gap-1 items-center justify-center cursor-pointer text-base font-bold relative"
+              onClick={() => setShowNav(false)}
             >
               <AiOutlineHome fontSize={20} />
               <span className="">Home</span>
@@ -32,6 +33,7 @@ function MobileNav({ showNav }) {
             <Link
               to={"/about"}
               className="flex gap-1 items-center justify-center cursor-pointer text-base font-bold relative"
+              onClick={() => setShowNav(false)}
             >
               <FiUser fontSize={20} />
               <span className="">About</span>
@@ -41,6 +43,7 @@ function MobileNav({ showNav }) {
             <Link
               to={"/projects"}
               className="flex gap-1 items-center justify-center cursor-pointer text-base font-bold relative"
+              onClick={() => setShowNav(false)}
             >
               <AiOutlineFundProjectionScreen fontSize={20} />
               <span className="">Projects</span>
@@ -50,6 +53,7 @@ function MobileNav({ showNav }) {
             <Link
               to={"/resume"}
               className="flex gap-1 items-center justify-center cursor-pointer text-base font-bold relative"
+              onClick={() => setShowNav(false)}
             >
               <FiFileText fontSize={20} />
               <span className="">Resume</span>
