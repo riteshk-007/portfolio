@@ -14,3 +14,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px; /* roundness of the scroll thumb */
   border: 0.1px solid #4e0097; /* creates padding around scroll thumb */
 }
+.react-pdf__Page__textContent  {
+ background: transparent !important;
+ display: none !important;
+}
