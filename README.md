@@ -4,12 +4,6 @@
 
 ![image](https://github.com/riteshk-007/portfolio/assets/135107962/96f7c7b4-33b6-4406-a943-095174331083)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/riteshk-007/portfolio)
-![GitHub issues](https://img.shields.io/github/issues/riteshk-007/portfolio)
-![GitHub stars](https://img.shields.io/github/stars/riteshk-007/portfolio)
-![GitHub forks](https://img.shields.io/github/forks/riteshk-007/portfolio)
-![GitHub license](https://img.shields.io/github/license/riteshk-007/portfolio)
-
 Welcome to my **Portfolio Website (React)** GitHub repository! This repository contains the source code for my personal portfolio website built with React. Feel free to explore, learn, and use this as a starting point for your own React-based portfolio website.
 
 ## Table of Contents
