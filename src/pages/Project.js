@@ -11,7 +11,7 @@ function Project() {
       />
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
         <ProjectCard
-          name={"Condom Crypto Coins 💰"}
+          name={"Coindom Crypto Coins 💰"}
           image={"/project/img1.png"}
           about={
             "Coindom is a cryptocurrency app that provides users with real-time information on various cryptocurrencies. With Coindom, you can view the details of any crypto, including its chart for different periods."
