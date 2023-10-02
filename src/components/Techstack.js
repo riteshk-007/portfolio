@@ -14,6 +14,7 @@ import {
   SiTailwindcss,
   SiGreensock,
   SiJquery,
+  SiPwa,
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 
@@ -59,6 +60,9 @@ const data = [
   },
   {
     icon: <FaWordpress fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiPwa fontSize={70} color="#fff" />,
   },
 ];
 function Techstack() {
