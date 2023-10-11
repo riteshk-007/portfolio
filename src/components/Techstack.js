@@ -6,6 +6,7 @@ import {
   FaSass,
   FaBootstrap,
   FaWordpress,
+  FaNodeJs,
 } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import {
@@ -15,8 +16,11 @@ import {
   SiGreensock,
   SiJquery,
   SiPwa,
+  SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const data = [
   {
@@ -63,6 +67,18 @@ const data = [
   },
   {
     icon: <SiPwa fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <FaNodeJs fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiExpress fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiMongodb fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <TbBrandNextjs fontSize={70} color="#fff" />,
   },
 ];
 function Techstack() {
