@@ -4,7 +4,7 @@ function Type() {
   return (
     <div>
       <Typewriter
-        words={["React Developer", "Frontend Developer", "Freelancer"]}
+        words={["Frontend Developer", "Freelancer", "Backend Developer"]}
         loop={0}
         cursor
         cursorStyle="|"

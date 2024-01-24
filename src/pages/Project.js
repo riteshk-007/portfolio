@@ -11,13 +11,13 @@ function Project() {
       />
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
         <ProjectCard
-          name={"Coindom Crypto Coins 💰"}
+          name={"Blog Website"}
           image={"/project/img1.png"}
           about={
-            "Coindom is a cryptocurrency app that provides users with real-time information on various cryptocurrencies. With Coindom, you can view the details of any crypto, including its chart for different periods."
+            "You can write and read blogs in it and it is built on NextJS, its backend uses mongodb. And it is also mobile responsive"
           }
-          demo={"https://coindom-crypto-coin.vercel.app/"}
-          code={"https://github.com/riteshk-007/COINDOM"}
+          demo={"https://blog-website-riteshk-007.vercel.app/"}
+          code={"https://github.com/riteshk-007/blog-website"}
         />
         <ProjectCard
           name={"Imagzen 🖼️"}
@@ -29,16 +29,13 @@ function Project() {
           code={"https://github.com/riteshk-007/imagzen"}
         />
         <ProjectCard
-          name={"Fash Cave (e commerce) 🏪"}
+          name={"NextJs E commerce 🏪"}
           image={"/project/img3.png"}
           about={
-            "FASHCAVE: The Adaptive Online Clothing Store Looking for an online clothing store that anticipates your needs? Look no further than FASHCAVE! Our platform is designed with both men and women in mind, offering a vast selection of clothes and accessories. With its fully responsive system, FASHCAVE is a breeze to navigate and shop."
+            "You can order clothes and create your own products and it is built on NextJS, its backend uses MongoDB. And it is also mobile responsive. And Test Account is = test@gmail.com and password = test4321"
           }
-          demo={"https://fash-cave.vercel.app/"}
-          code={"https://github.com/riteshk-007/Fash-Cave"}
-          note={
-            "Site's Backend Built on Render. If you're experiencing slow load times on this site, consider starting the server by clicking on this link. The server launch can significantly reduce loading time since the site's backend is built on Render."
-          }
+          demo={"https://nextjs-e-commerce-rk.vercel.app/"}
+          code={"https://github.com/riteshk-007/nextjs-store"}
         />
         <ProjectCard
           name={"ChatGPT Clone 💬"}
@@ -46,7 +43,6 @@ function Project() {
           about={
             "Similar to chatGPT, this platform is designed to assist users in addressing their queries. It's an excellent resource to tackle any code-related issue or inquiry you may have."
           }
-          demo={"https://chat-gpt-theta-taupe.vercel.app/"}
           code={"https://github.com/riteshk-007/Chat-GPT-Clone"}
         />
         <ProjectCard

@@ -21,6 +21,7 @@ import {
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";
+import { SiPrisma } from "react-icons/si";
 
 const data = [
   {
@@ -79,6 +80,9 @@ const data = [
   },
   {
     icon: <TbBrandNextjs fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <SiPrisma fontSize={70} color="#fff" />,
   },
 ];
 function Techstack() {

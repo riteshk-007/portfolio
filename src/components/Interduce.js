@@ -37,14 +37,7 @@ function Interduce() {
               <span className="text-[#ad50eb]">Modern Javascript Library</span>{" "}
               and <span className="text-[#ad50eb]">Frameworks </span>
               like
-              <span className="text-[#ad50eb]"> React.js.</span>
-            </p>
-            <p>
-              And I will soon be able to create a{" "}
-              <span className="text-[#ad50eb]">website </span> and{" "}
-              <span className="text-[#ad50eb]"> web app</span> with
-              <span className="text-[#ad50eb]"> Nextjs</span> and{" "}
-              <span className="text-[#ad50eb]">Typescript</span>.
+              <span className="text-[#ad50eb]"> React.js and Next.js.</span>
             </p>
           </span>
         </div>

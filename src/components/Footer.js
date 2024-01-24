@@ -11,7 +11,7 @@ function Footer() {
         Designed and Developed by Ritesh
       </p>
       <p className="text-sm font-semibold text-center m-2">
-        Copyright © 2023 Ritesh.dev
+        Copyright © 2024 Ritesh.dev
       </p>
       <span className="flex items-center justify-center gap-7 m-2">
         <a
