@@ -16,28 +16,14 @@ function Interduce() {
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-3/4 lg:mr-10">
           <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
             <p>
-              I fell in love with coding and I have at least learnt something, I
-              think… 🤷‍♂️
-            </p>
-
-            <p>
-              I am fluent in classics like{" "}
-              <span className="text-[#ad50eb]">React JS.</span>
-            </p>
-
-            <p>
-              My field of Interest's are building new{" "}
-              <span className="text-[#ad50eb]">Website</span> And{" "}
-              <span className="text-[#ad50eb]">Web App</span> .
-            </p>
-
-            <p>
-              Whenever possible, I also apply my passion for developing products
-              with{" "}
-              <span className="text-[#ad50eb]">Modern Javascript Library</span>{" "}
-              and <span className="text-[#ad50eb]">Frameworks </span>
-              like
-              <span className="text-[#ad50eb]"> React.js and Next.js.</span>
+              I'm Ritesh, a Full-stack Web Developer from New Delhi with
+              expertise in React, Next.js, Node.js, and Express.js. With over
+              1.5 years of experience, I've built high-performing web
+              applications, including blogging platforms and e-commerce
+              solutions. As a Tech Lead & Web Developer Intern at MnA Studio, I
+              optimized site performance using Next.js. With a passion for
+              learning and attention to detail, I'm committed to delivering
+              impactful digital experiences. Let's connect and create together!
             </p>
           </span>
         </div>

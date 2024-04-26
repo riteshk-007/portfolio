@@ -7,6 +7,9 @@ import {
   FaBootstrap,
   FaWordpress,
   FaNodeJs,
+  FaAws,
+  FaDocker,
+  FaShopify,
 } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import {
@@ -22,6 +25,7 @@ import {
 import { BsGit } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiPrisma } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
 
 const data = [
   {
@@ -84,8 +88,29 @@ const data = [
   {
     icon: <SiPrisma fontSize={70} color="#fff" />,
   },
+  {
+    icon: <FaAws fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <DiRedis fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <FaDocker fontSize={70} color="#fff" />,
+  },
+  {
+    icon: <FaShopify fontSize={70} color="#fff" />,
+  },
 ];
 function Techstack() {
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  let shuffledData = shuffleArray(data);
   return (
     <div className="relative w-11/12 lg:w-4/5 mx-auto flex items-center justify-center gap-3 flex-wrap my-5 lg:my-10">
       <img
@@ -93,7 +118,7 @@ function Techstack() {
         alt=""
         className="h-full w-full object-cover opacity-10 absolute bottom-0"
       />
-      {data.map((item, i) => (
+      {shuffledData.map((item, i) => (
         <div
           className="w-36 md:w-60 h-36 flex items-center justify-center m-3 border border-[#df8de2] bg-black/30  z-20 rounded-sm hover:border-[#ad50eb] hover:scale-[1.02] transition-all duration-300"
           key={i}
